@@ -1,0 +1,29 @@
+https://www.codingforentrepreneurs.com/blog/typescript-setup-guide/
+
+1- make sure that Node is installed 
+like pip in python 
+NPM (node) must beinstalled first so you can install TypeScript
+    npm --version 
+        8.19.4
+    node -v
+        v16.20.2
+    nvm -v
+        0.39.5
+    to upgrade the node to latest 20 
+    nvm install 20
+    nvm use 20
+    node -v
+        v20.11.1
+
+2- install TypeScript 
+    npm install -g typescript
+    tsc --version
+        Version 5.4.2
+
+3- install dependancies IF needed 
+npm install http-server jquery ts-loader --save-dev
+
+so in general the tsc need compiler to change the tsc file to js file 
+some configuration required you can configure it in tsconfig.json
+then run tsc 
+

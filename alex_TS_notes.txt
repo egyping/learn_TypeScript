@@ -1,0 +1,14 @@
+Introduction to TS
+
+to access TS compiler you need nodejs 
+npm install -g typescript 
+tsc --version             
+Version 5.4.2
+
+to run TS 
+Option I 
+create any file.ts then tsc file.ts
+above will compile to file.js 
+then node file.js 
+Option II
+npm install -g ts-node
