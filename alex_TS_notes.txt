@@ -12,3 +12,9 @@ above will compile to file.js
 then node file.js 
 Option II
 npm install -g ts-node
+
+
+Function structure
+
+function functionName(inputs): outputType1, outputType2 {outputLogic}
+

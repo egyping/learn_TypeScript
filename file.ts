@@ -20,3 +20,5 @@ var c = ["string type", "string type too"]
 var arraySample: string[] = ["string type", "string type too"]
 arraySample.push(a)
 console.log(arraySample)
+
+// function functionName(inputs): outputType1, outputType2 {outputLogic}
